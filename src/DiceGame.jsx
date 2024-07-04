@@ -44,6 +44,7 @@ export const DiceGame = () => {
         <div className="row h-screen w-[80%] flex justify-center items-center flex-col gap-2">
           <h1 className="text-sm">Dice Game</h1>
           <h2>
+            {" "}
             Let's <span className="font-bold">play</span>
           </h2>
           <div className="dice-container w-full flex justify-center items-center gap-4 py-4">
