@@ -1,0 +1,59 @@
+.main-container .result-container .result-content {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(119, 119, 119, 0.342);
+  padding: 12px 16px;
+  border-radius: 16px;
+}
+.main-container .row h2 {
+  font-size: clamp(2em, 4vw, 3em);
+  font-family: var(--font-para);
+  font-weight: 100;
+  font-family: var(--font-buttons);
+  text-transform: capitalize;
+}
+.result-content p {
+  font-family: var(--font-buttons);
+}
+.main-container .result-container .result-content p:nth-child(2) {
+  color: greenyellow;
+}
+.rules {
+  background-color: rgba(170, 168, 168, 0.24);
+  border-radius: 18px;
+  font-family: var(--font-buttons);
+}
+.rules-container h1 {
+  font-size: clamp(2em, 3vw, 3em);
+  margin-bottom: 8px;
+  border-bottom: 1px solid greenyellow;
+}
+.rules p strong, .rules p ul li strong {
+  color: greenyellow;
+}
+.rules-container .row {
+  width: 600px;
+}
+.rules-container .row p {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  padding: 16px 24px;
+  background-color: black;
+}
+.footer {
+  font-family: var(--font-buttons);
+}
+@media screen and (max-width: 768px) {
+  .main-container .row {
+    width: 96%;
+  }
+  .rules-container .row {
+    width: 96%;
+  }
+  .main-container .result-container .result-content  {
+    width: 96%;
+  }
+}

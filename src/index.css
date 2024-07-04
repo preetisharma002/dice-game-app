@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --font-head: "Inter Tight", sans-serif;
+  --font-para: "Open Sans", sans-serif;
+  --font-buttons: "Space Grotesk", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  color: white;
+}
+body h1 {
+  font-family: var(--font-head);
+  font-size: 1.7em;
+  font-weight: bold;
+}
+body button,
+body a {
+  font-family: var(--font-buttons) !important;
+}
